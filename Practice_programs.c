@@ -1,15 +1,15 @@
-//area of squired
-//program note 2
+//area of circle
+// program 3
 
 # include <stdio.h>
 int main(int argc, char const *argv[])
 {
-   int side;
-   printf("enter the side \n");
+    int radis;
 
-   scanf("%d",& side);
+    printf("enter the radias");
+    scanf("%d", & radis);
 
-printf("Area of squired is %d", side * side);
-
+    printf("Area of Circle is : %f", 3.14 * radis * radis );
     return 0;
 }
+
